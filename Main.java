@@ -6,7 +6,7 @@ public class Main{
         System.out.print("Введите размер массива, n = ");
         int n = in.nextInt();
         int[] mass = new int[n];
-        System.out.println("Ввод матрицы: ");
+        System.out.println("Ввод массива: ");
         for (int i = 0; i < n;i++){mass[i]= in.nextInt();}
         System.out.println(Arrays.toString(mass));
         int min = mass[0];
